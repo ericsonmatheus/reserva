@@ -1,0 +1,51 @@
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main--left {
+    height: 100%;
+    width: 300px;
+    
+}
+.main--home {
+    background-color: #FFF;
+    height: 460px;
+    margin: 40px 20px 0 25px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .3);
+    border-radius: 8px;
+}
+.main--hours {
+    background-color: #FFF;
+    height: 340px;
+    margin: 40px 20px 0 25px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .3);
+    border-radius: 8px;
+}
+.main--right {
+    height: 100%;
+    width: 850px;
+}
+.main--reserve {
+    background-color: #FFF;
+    height: 300px;
+    margin: 40px 25px 0 20px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .3);
+    border-radius: 8px;
+}
+.main--info {
+    background-color: #FFF;
+    height: 300px;
+    margin: 40px 25px 0 20px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .3);
+    border-radius: 8px;
+}
+.main--contact {
+    background-color: #FFF;
+    height: 160px;
+    margin: 40px 25px 0 20px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .3);
+    border-radius: 8px;
+}
