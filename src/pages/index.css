@@ -7,7 +7,7 @@
 }
 .main--left {
     height: 100%;
-    width: 300px;
+    width: 330px;
     
 }
 .main--home {
@@ -16,6 +16,51 @@
     margin: 40px 20px 0 25px;
     box-shadow: 0 0 1em rgba(0, 0, 0, .3);
     border-radius: 8px;
+    
+}
+.main--userInfo,
+.main--options {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main--name {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main--bloco {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main--options {
+    height: 280px;
+    width: 285px;
+    display: flex;
+    justify-content: center;
+}
+.main-optionLink {
+    padding: 28px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    transition: all ease 0.2s;
+}
+.main-optionLink:hover {
+    color: #555;
+}
+.active {
+    color: #8B4513;
+    background-color: rgba( 255, 239, 190, 0.6);
+}
+.active:hover {
+    color: #AD6735;
 }
 .main--hours {
     background-color: #FFF;
@@ -23,6 +68,27 @@
     margin: 40px 20px 0 25px;
     box-shadow: 0 0 1em rgba(0, 0, 0, .3);
     border-radius: 8px;
+}
+.main--title {
+    display: flex;
+    justify-content: center;
+}
+.main--title h2 {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8B4513;
+}
+.main--hoursOpening {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 35px 0 35px;
+}
+.main--text {
+    line-height: 1.8;
+    font-weight: lighter;
+    color: #9D8F8F;
 }
 .main--right {
     height: 100%;
@@ -42,10 +108,46 @@
     box-shadow: 0 0 1em rgba(0, 0, 0, .3);
     border-radius: 8px;
 }
+.main--descriptionInfo {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 35px 0 35px;
+}
+.main--description,
+.main--value {
+    width: 100%;
+}
+.main--description p {
+    text-align: left;
+    margin-left: 15px;
+}
+.main--value p {
+    text-align: right;
+    margin-right: 15px;
+}
 .main--contact {
     background-color: #FFF;
     height: 160px;
     margin: 40px 25px 0 20px;
     box-shadow: 0 0 1em rgba(0, 0, 0, .3);
     border-radius: 8px;
+}
+.main--contacts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main--phone, 
+.main--email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.main--phone p,
+.main--email p {
+    margin-left: 5px;
+    color: #8B4513;
 }
