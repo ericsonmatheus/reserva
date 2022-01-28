@@ -6,38 +6,6 @@
     justify-content: center;
     align-items: center;
 }
-.reserve--left {
-    height: 100%;
-    width: 330px;
-    margin-top: 150px;
-    display: flex;
-    justify-content: center;
-}
-.reserve--step {
-    background-color: #FFF;
-    height: 600px;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 1em rgba(0, 0, 0, .2);
-    border-radius: 8px;
-}
-.reserve--step li {
-    list-style: none;
-    border: 0;
-
-}
-.reserve--step li ul {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-bottom: 40px;
-    padding: 0;
-    cursor: pointer
-}
-.current {
-    color: #9C5624;
-}
 .reserve--right {
     height: 100%;
     width: 850px;
@@ -52,28 +20,49 @@
     align-items: center;
 }
 .reserve--optionWash,
-.reserve--optionDryer {
+.reserve--optionDryer,
+.reserve--optionWashDryer {
     height: 290px;
     width: 400px;
     margin-top: 1rem;
     box-shadow: 0 0 1em rgba(0, 0, 0, .2);
     border-radius: 8px;
     background-color: #FFF;
-}
-.reserve--card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     position: relative;
 }
-.reserve--card h2 {
+.reserve--optionWashDryer {
+    height: 290px;
+    width: 825px;
+}
+.reserve--img {
+    width: 100%;
+    height: 290px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, .9);
+}
+.reserve--img img{
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+.reserve--content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+}
+.reserve--content h2 {
     margin-top: 5px;
     font-size: 1.3rem;
     font-weight: bold;
-    color: #8B4513;
+    color: #FFF;
 }
-.reserve--card a {
+.reserve--content a {
     height: 50px;
     width: 230px;
     margin-top: 15px;
@@ -90,7 +79,7 @@
     transform: scale(0.9);
     transition: all ease .4s;
 }
-.reserve--card a:hover {
+.reserve--content a:hover {
     transform: scale(1);
     background-color: #9C5624;
 }
@@ -100,16 +89,11 @@
 }
 .reserve--description p {
     text-align: center;
+    color: #FFF;
+    font-size: 1rem;
 }
 .reserve--column {
     display: flex;
     justify-content: center;
     margin-top: 24px;
-}
-.reserve--optionWashDryer {
-    height: 290px;
-    width: 825px;
-    box-shadow: 0 0 1em rgba(0, 0, 0, .2);
-    border-radius: 8px;
-    background-color: #FFF;
 }

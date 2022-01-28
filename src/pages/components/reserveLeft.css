@@ -1,0 +1,32 @@
+.reserve--left {
+    height: 100%;
+    width: 330px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.reserve--step {
+    background-color: #FFF;
+    height: 600px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .2);
+    border-radius: 8px;
+}
+.reserve--step li {
+    list-style: none;
+    border: 0;
+
+}
+.reserve--step li ul {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding: 0;
+    cursor: pointer
+}
+.current {
+    color: #9C5624;
+}

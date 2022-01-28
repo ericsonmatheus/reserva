@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
 import Banner from "../images/reserve.jpg";
+import MainLeft from "./components/mainLeft";
 
 import Phone from '@material-ui/icons/Phone';
 import Email from '@material-ui/icons/MailOutline';
@@ -10,47 +11,9 @@ function Main() {
 
     return (
         <div className="main">
-            <div className="main--left">
-                <div className="main--home">
-                    <div className="main--userInfo">
-                        <div className="main--name">Marcos Antonio</div>
-                        <div className="main--bloco">Bloco B</div>
-                    </div>
-                    <div className="main--options">
-                        <Link to="/" className="main-optionLink active">Inicio</Link>
-                        <Link to="/myreserves" className="main-optionLink">Minhas Reservas</Link>
-                    </div>
-                </div>
-                <div className="main--hours">
-                    <div className="main--title">
-                        <h2>Horário de Funcionamento</h2>
-                    </div>
-                    <div className="main--hoursOpening">
-                        <div>
-                            <p className="main--text">
-                                Seg<br/>
-                                Ter<br/>
-                                Qua<br/>
-                                Qui<br/>
-                                Sex<br/>
-                                Sab<br/>
-                                Dom
-                            </p>
-                        </div>
-                        <div>
-                            <p className="main--text">
-                                08:00 - 18:00<br/>
-                                08:00 - 18:00<br/>
-                                08:00 - 18:00<br/>
-                                08:00 - 18:00<br/>
-                                08:00 - 18:00<br/>
-                                08:00 - 18:00<br/>
-                                08:00 - 18:00
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+            < MainLeft active="main"/>
+
             <div className="main--right">
                 <div className="main--reserve">
                     <div className="main--bannerImg">
