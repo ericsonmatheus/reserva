@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
+import Banner from "../images/reserve.jpg";
 
 import Phone from '@material-ui/icons/Phone';
 import Email from '@material-ui/icons/MailOutline';
@@ -52,8 +53,11 @@ function Main() {
             </div>
             <div className="main--right">
                 <div className="main--reserve">
-                    <h1>Máquinas de Lavar e Secar</h1>
-                    <div className="main--buttomReserve">
+                    <div className="main--bannerImg">
+                        <img src={Banner} alt="Banner_Reserve"></img>
+                    </div>
+                    <div className="main--reserveBanner">
+                        <h1>Máquinas de Lavar e Secar</h1>
                         < Link to="/reserve">Reservar</Link>
                     </div>
                 </div>

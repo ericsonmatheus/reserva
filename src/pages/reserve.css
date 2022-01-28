@@ -1,0 +1,115 @@
+.reserve {
+    height: calc(100vh - 150px);
+    width: 1366;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.reserve--left {
+    height: 100%;
+    width: 330px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.reserve--step {
+    background-color: #FFF;
+    height: 600px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .2);
+    border-radius: 8px;
+}
+.reserve--step li {
+    list-style: none;
+    border: 0;
+
+}
+.reserve--step li ul {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding: 0;
+    cursor: pointer
+}
+.current {
+    color: #9C5624;
+}
+.reserve--right {
+    height: 100%;
+    width: 850px;
+    margin-top: 150px;
+}
+.reserve--return a {
+    color: #9C5624;
+}
+.reserve--row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.reserve--optionWash,
+.reserve--optionDryer {
+    height: 290px;
+    width: 400px;
+    margin-top: 1rem;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    background-color: #FFF;
+}
+.reserve--card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.reserve--card h2 {
+    margin-top: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #8B4513;
+}
+.reserve--card a {
+    height: 50px;
+    width: 230px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #8B4513;
+    border-radius: 25px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .2);
+    transform: scale(0.9);
+    transition: all ease .4s;
+}
+.reserve--card a:hover {
+    transform: scale(1);
+    background-color: #9C5624;
+}
+.reserve--description {
+    margin-top: 5px;
+    width: 80%;
+}
+.reserve--description p {
+    text-align: center;
+}
+.reserve--column {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.reserve--optionWashDryer {
+    height: 290px;
+    width: 825px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    background-color: #FFF;
+}

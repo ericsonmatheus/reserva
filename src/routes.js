@@ -7,6 +7,7 @@ import {
 
 import Main from "./pages";
 import Login from "./pages/login";
+import Reserve from "./pages/reserve"
 
 function Routes() {
     return(
@@ -14,6 +15,7 @@ function Routes() {
             <Switch>
                 <Route path="/" element={<Main/>}/>
                 <Route path="/logon" element={<Login />}/>
+                <Route path="/reserve" element={<Reserve />}/>
             </Switch>
         </Router>
     );
