@@ -1,14 +1,14 @@
 .reserve--left {
     height: 100%;
     width: 330px;
-    margin-top: 150px;
     display: flex;
     justify-content: center;
 }
 .reserve--step {
     background-color: #FFF;
+    margin-top: 40px;
     height: 600px;
-    width: 80%;
+    width: 285px;
     display: flex;
     justify-content: center;
     align-items: center;

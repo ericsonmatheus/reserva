@@ -1,15 +1,14 @@
 .myreserve {
-    height: calc(100vh- 30px);
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
 }
 .myreserve--right {
-    height: 800px;
+    height: 850px;
     width: 850px;
     overflow-x: hidden; 
+    margin-top: 30px;
 }
 .myreserve--return a {
     color: #9C5624;
@@ -20,6 +19,7 @@
 .myreserve--card {
     height: 400px;
     width: 360px;
+    background-color: #FFFFFF;
     display: inline-block;
     box-shadow: 0 0 1em rgba(0, 0, 0, .2);
     border-radius: 8px;
@@ -55,7 +55,7 @@
 }
 .myreserve--content a:hover {
     transform: scale(1);
-    background-color: #9C5624;
+    background-color: #C63723;
 }
 .myreserve--info {
     display: flex;

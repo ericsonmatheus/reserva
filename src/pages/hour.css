@@ -1,0 +1,93 @@
+.hour {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.hour--right {
+    height: 100%;
+    width: 845px;
+    margin-left: 10px;
+}
+.hour--return {
+    margin-top: 35px;
+    margin-bottom: -40px;
+}
+.hour--return a{
+    color: #9C5624;
+}
+.hour--schedule {
+    height: 800px;
+    width: 850px;
+}
+.hour--title {
+    text-align: center;
+    color: #9C5624;
+}
+.hour--title h2 {
+    font-size: 1.6rem;
+}
+.hour--calendar {
+    height: 300px;
+    width: 100%;
+    background-color: #FFF;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .2);
+    border-radius: 8px;
+}
+.hour--top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hour--monthBefore,
+.hour--monthNext,
+.hour--month {
+    margin: 5px 5px 0 5px;
+    color: #9C5624;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+.hour--month p{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.hour--monthBefore:hover,
+.hour--monthNext:hover {
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 25px;
+}
+.hour--timeAvailable {
+    height: 250px;
+    width: 100%;
+    background-color: #FFF;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.hour--title h3 {
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.hour--option {
+    padding: 0 30px;
+    margin-top: 0px;
+}
+.hour--available {
+    display: flex;
+}
+.hour--available p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 1);
+    margin-left: 14px;
+    margin-top: 5px;
+    height: 30px;
+    width: 115px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.hour--available p:hover {
+    background-color: #EEE;
+}

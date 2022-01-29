@@ -28,7 +28,7 @@ function Reserve() {
                             <div className="reserve--description">
                                 <p>Máquina de lavar roupa de uso de comum, mantidas pelo prédio.<br/><br/><br/>Tempo: <strong>45 minutos</strong></p>
                             </div>
-                            < Link to="/reserve">Reservar</Link>
+                            < Link to="/reserve/hour">Reservar</Link>
                         </div>
                     </div>
                     <div className="reserve--optionDryer">
@@ -40,7 +40,7 @@ function Reserve() {
                             <div className="reserve--description">
                                 <p>Secadora de roupas de uso de comum, mantidas pelo prédio.<br/><br/><br/>Tempo: <strong>45 minutos</strong></p>
                             </div>
-                            < Link to="/reserve">Reservar</Link>
+                            < Link to="/reserve/hour">Reservar</Link>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ function Reserve() {
                             <div className="reserve--description">
                                 <p>Máquina de lavar e secadora de roupas de uso de comum, mantidas pelo prédio.<br/><br/><br/>Tempo: <strong>45 minutos</strong></p>
                             </div>
-                            < Link to="/reserve">Reservar</Link>
+                            < Link to="/reserve/hour">Reservar</Link>
                         </div>
                     </div>
                 </div>
